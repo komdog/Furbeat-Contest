@@ -1,5 +1,13 @@
-remote_theme: pages-themes/minimal@v0.2.0
 title: Furbeat Spookymonth Contest Rules
 description: Bookmark this to keep an eye on updates!
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+theme: minima
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic	           Default, light color scheme.
+  # dark	             Dark variant of the classic skin.
+  # auto	             Adaptive skin based on the default classic and dark skins.
+  # solarized-light	   Light variant of solarized color scheme.
+  # solarized-dark	   Dark variant of solarized color scheme.
+  # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: dark
